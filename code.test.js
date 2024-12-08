@@ -55,3 +55,4 @@ const test = jsc.forall("nat nat", function (numNodes, numEdges) {
 
 // Run the property test
 jsc.assert(test, { tests: 1000 });
+
