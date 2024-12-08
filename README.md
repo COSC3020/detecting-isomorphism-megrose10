@@ -19,5 +19,5 @@ I certify that I have listed all sources used to complete this exercise, includi
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
-The worse case complexity would be Θ(|E| + |V |). In this implementation, we use adjacency lists to go over and check how many edges each vertex has, and compares the degrees to the other graph to test for a bijection. 
+The worse case complexity would be Θ(|E| + |V |). In this implementation, we use adjacency lists to go over and check how many edges each vertex has. 
 
