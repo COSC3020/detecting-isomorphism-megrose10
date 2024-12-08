@@ -49,7 +49,7 @@ function sortDegrees(degreeList) {
             if(degreeList[i] > degreeList[j]) {
                 let tmp = degreeList[i];
                 degreeList[i] = degreeList[j];
-                degreeList[j] = degreeList[i];
+                degreeList[j] = tmp;
             }
         }
     }
